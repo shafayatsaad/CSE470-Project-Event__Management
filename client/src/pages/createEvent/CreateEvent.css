@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.boxx{
+    padding: 20px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 8px;
+}
+
+.create-an-event{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.create-event-form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.create-button{
+    margin-left: 37%;
+    margin-top: 5%;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 700;
+    border: 1px solid  #dcdde1;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: green;
+  }
