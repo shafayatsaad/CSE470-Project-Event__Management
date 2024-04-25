@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.boxx{
+    padding: 30px 40px ;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 8px;
+}
+
+.Delete-an-event{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.delete-event-form input{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.delete-button{
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 700;
+    border: 1px solid  #dcdde1;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: green;
+  }

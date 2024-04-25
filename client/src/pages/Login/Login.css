@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 10px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 15px; */
+    text-align: left;
+    justify-content: center;
+  }
+
+  .form-group input{
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 8px;
+    scale: 1.15;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: green;
+    font-weight: 500;
+  }
+  .form{
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1rem;
+  }
+  input[type='text'],
+  input[type='password'],
+  input[type='email']{
+    width: calc(100%) ;
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .username-icon, .password-icon{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    scale: 2;
+  }
+
+  .form-group p {
+    margin: 10px;
+  }
