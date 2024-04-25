@@ -1,0 +1,61 @@
+.card {
+  background-color: white;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  border-radius: 18px;
+  border: 2px solid var(--primary-color);
+}
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.187);
+}
+.card img {
+  aspect-ratio: 16/13.5;
+  width: 280px;
+  border-radius: 8px;
+  border: 1px solid rgb(206, 206, 206);
+  object-fit: cover;
+}
+.card .card-content {
+  width: 230px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card .card-content h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(43, 50, 43);
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+.card .card-content p {
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.card.expanded {
+  width: auto;
+  max-width: 800px;
+  height: 32vh;
+}
+.buy-button{
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.ishtrong{
+  font-weight: 700;
+  font-size: 14px;
+  color: wheat;
+}

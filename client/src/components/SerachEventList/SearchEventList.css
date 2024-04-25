@@ -1,0 +1,8 @@
+.event-search {
+    margin-top: 60px;
+}
+.filtered-feched-events{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
